@@ -1,5 +1,5 @@
 * {
-
+margin-right: 0;
 padding: 0;
 }
 
@@ -8,53 +8,26 @@ padding: 0;
 }
 
 .container {
-  background-color:white;
+  background-color:grey;
   padding: 10px;
   width: 170px;
   height: 376px;
   display: inline-block;
-  position: relative;
   text-align: center;
 
 
 
 }
 
-.city1 {
+.city {
   width: 100%;
-  object-fit: cover;
-  height: 100%;
-  object-position:left;
+  position: relative;
 
-
-}
-
-.city2 {
-  width: 100%
-  object-fit: cover;
-  height: 100%
-  object-position:left;
-
-}
-
-.city3 {
-  width: 100%
-  object-fit: cover;
-  height: 100%
-  object-position:left;
 
 
 }
 
-.text1 {
-  color:white;
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.text2 {
+.text {
   color:white;
   position: absolute;
   top: 50%;
@@ -62,15 +35,9 @@ padding: 0;
   transform: translate(-50%, -50%);
 }
 
-.text3 {
-  color:white;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
-#overlay {
+
+.overlay {
 position: absolute;
 top:0;
 bottom: 0;
